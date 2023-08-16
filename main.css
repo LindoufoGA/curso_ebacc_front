@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.form {
+    margin: 80px auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.container {
+    margin: 100px auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+input, textarea, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 40%;
+    resize: none;
+}
+.mensagemSucesso {
+    background-color: #14ec14;
+    padding: 16px;
+    color: #000000;
+    display: none;
+    width: 40%;
+}
+.error{
+    font-size: 12px;
+    padding: 16px;
+    background-color: red;
+    color: #000000;
+    margin-bottom: pointer;
+    display: none;
+    width: 40%;
+}
+button{
+    background-color: #b8da22;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #42815c;
+}
